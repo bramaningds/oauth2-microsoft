@@ -1,0 +1,25 @@
+{
+    "name": "bramaningds/oauth2-microsoft",
+    "description": "Microsoft api client",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.0",
+        "league/oauth2-client": "^1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bramaning Djoko Susilo",
+            "email": "bramaningds@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ebram\\OAuth2\\Client\\": "src/"
+        }
+    },
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
